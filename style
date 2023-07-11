@@ -1,3 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+.container-header {
+  max-width: 1340px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1340px;
+  padding: 0 85px;
+  margin: 0 auto;
+}
+body {
+  color: #FFF;
+  background-color:#14110E ;
+}
 font-family: 'Inter', sans-serif;
 font-family: 'Urbanist', sans-serif;
