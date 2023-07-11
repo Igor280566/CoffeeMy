@@ -28,12 +28,18 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .container {
   max-width: 1340px;
-  padding: 0 85px;
+  padding: 0 75px;
   margin: 0 auto;
 }
 body {
   color: #FFF;
-  background-color:#14110E ;
+  background-color:#14110E ; 
+  font-family: 'Urbanist','Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
 }
-font-family: 'Inter', sans-serif;
-font-family: 'Urbanist', sans-serif;
+.header {
+  background-color: #1C1814;
+}
+
