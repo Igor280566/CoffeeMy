@@ -99,3 +99,23 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.banner {
+  padding-top: 147px;
+  padding-bottom: 300px;
+  background-image: url(./img/background_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.banner__title {
+  width: 529px;
+  font-family: Righteous;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 32px;
+}
