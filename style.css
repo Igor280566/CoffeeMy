@@ -101,10 +101,10 @@ body {
 }
 .banner {
   padding-top: 147px;
-  padding-bottom: 300px;
   background-image: url(./img/background_banner.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  margin-bottom: 140px;
 }
 .banner-wrap {
   display: flex;
@@ -115,7 +115,51 @@ body {
   font-family: Righteous;
   font-size: 72px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 130%;
   margin-bottom: 32px;
 }
+.banner__text {
+  width: 511px;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 20px;
+  line-height: 180%;
+  text-transform: capitalize;
+  margin-bottom: 88px;
+}
+.banner-left__button {
+  padding: 24px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: #C99E71;
+  margin-bottom: 166px;
+}
+.banner-left__button:hover {
+  color: #C99E71;
+  background-color: #63533ac9;
+}
+.banner-right {
+  align-self: end;
+  margin-bottom: 158px;
+}
+.rules {
+  margin-bottom: 140px;
+}
+.rules__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+}
+ .rules__list-items span {
+  color: #C99E71;
+  font-family: Righteous;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
