@@ -239,6 +239,11 @@ body {
   margin-bottom: 36px;
 }
 
+.product__card {
+  padding: 48px 48px 36px 48px;
+  background: #121315;
+}
+
 
 
 
