@@ -55,6 +55,10 @@ h1,h2,h3,h4,h5,h6,p {
   text-transform: uppercase;
   background-color: #C99E71;
 }
+.btn-primary:hover {
+  color: #C99E71;
+  background-color: #795f36c9;
+}
 .section__title {
   color: #C99E71;
   font-size: 18px;
@@ -164,7 +168,7 @@ body {
 }
 .banner-left__button:hover {
   color: #C99E71;
-  background-color: #63533ac9;
+  background-color: #795f36c9;
 }
 .banner-right {
   align-self: end;
@@ -304,9 +308,14 @@ body {
   text-decoration : line-through;
   text-transform: uppercase;
 }
-.product__img:hover {
-  .product-inner: display: none;
 
+.product__card_btn {
+  padding: 14px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  text-transform: none;
 }
 .product__btn {
   padding: 20px 36px;
