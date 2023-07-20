@@ -544,7 +544,8 @@ body {
     position: absolute;
     top: 20px;
     left: 270px;
-  }.copyright {
+  }
+  .copyright {
     background-color: #1C1814;
     padding-top: 32px;
     padding-bottom: 32px;
