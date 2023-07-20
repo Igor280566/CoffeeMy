@@ -455,6 +455,50 @@ body {
   margin: 56px auto;
   padding: 20px 36px;
 }
+.news {
+  margin-bottom: 140px;
+}
+.news-wrap {
+  display: flex;
+  gap: 36px;
+}
+.news__card {
+  background-color: #1C1814;
+}
+.news__img {
+  margin-bottom: 20px;
+}
+.news__card-inner {
+  display: flex;
+  justify-content: center;
+  gap: 149px;
+}
+.news__date {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.news__date span {
+  color: #C99E71;
+}
+.news__text {
+  font-family: Righteous;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  text-transform: capitalize;
+  padding-left: 24px;
+  margin-bottom: 33px;
+}
+.news__more {
+  color: #C99E71;
+  padding-left: 24px;
+  margin-bottom: 28px;
+}
+.news__more span {
+  color: #C99E71;
+  vertical-align: middle;
+}
+
 
 
 
