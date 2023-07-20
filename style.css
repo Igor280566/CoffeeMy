@@ -421,6 +421,43 @@ body {
   height: 20px;
   color: #C99E71;
 }
+.reservation {
+  margin-bottom: 140px;
+}
+.reservation-wrap {
+  display: flex;
+}
+.reservation__subtitle {
+  margin-bottom: 56px;
+}
+.reservation-left {
+  width: 585px;
+}
+.reservation__img {
+  width: 585px;
+}
+.reservation-right {
+  width: 585px ;
+  background-color: #1C1814;
+  padding: 72px 48px;
+}
+.reservation__input {
+  width: 489px;
+  height: 64px;
+  background-color: #14110E; 
+  border: none;
+  margin-bottom: 24px; 
+}
+.reservation__input::placeholder {
+  padding-left: 20px;
+}
+.reservation__btn {
+  margin: 56px auto;
+  padding: 20px 36px;
+}
+
+
+
 
 
 
