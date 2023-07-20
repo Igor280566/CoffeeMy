@@ -321,6 +321,9 @@ body {
   padding: 20px 36px;
   margin: 0 auto;
 }
+.product__img:hover .product-inner {
+  display: none;
+}
 .buy {
   background-color: #1C1814;
   padding-top: 72px;
@@ -385,6 +388,7 @@ body {
 .customers-wrap {
   display: flex;
   gap: 40px;
+  margin-bottom: 36px;
 }
 
 .customers__left,
@@ -421,6 +425,30 @@ body {
   height: 20px;
   color: #C99E71;
 }
+.customers-container {
+  display: flex;
+  justify-content: space-between;
+  color: #C99E71;
+  padding-right: 20px;
+}
+.customers__number {
+  color: #C99E71;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 135%; /* 27px */
+  margin-bottom: 20px;
+}
+.customers__progress {
+  width: 120px;
+  height: 4px;
+  border-radius: 3px;
+  background: #C99E71;
+}
+.customers-container__icons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
 .reservation {
   margin-bottom: 140px;
 }
@@ -439,7 +467,7 @@ body {
 .reservation-right {
   width: 585px ;
   background-color: #1C1814;
-  padding: 72px 48px;
+  padding: 72px 48px 0 48px;
 }
 .reservation__input {
   width: 489px;
@@ -498,6 +526,30 @@ body {
   color: #C99E71;
   vertical-align: middle;
 }
+.footer-wrap
+{
+  display: flex;
+  gap: 36px;
+}
+.footer__form {
+  position: relative;
+}
+.footer__input {
+  width: 328px;
+  height: 72px;
+  border-radius: 36px;
+  background-color: #1C1814;
+  }
+  .footer__btn {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+  }.copyright {
+    background-color: #1C1814;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
 
 
 
