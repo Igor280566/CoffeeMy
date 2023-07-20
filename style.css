@@ -442,7 +442,7 @@ body {
   width: 120px;
   height: 4px;
   border-radius: 3px;
-  background: #C99E71;
+  color: #C99E71;
 }
 .customers-container__icons {
   display: flex;
